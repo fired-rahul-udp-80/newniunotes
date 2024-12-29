@@ -324,6 +324,7 @@ html, body{
     gap: 40px 60px;
 }
 
+
 .drop {
     position: relative;
     width: 350px;
@@ -368,7 +369,21 @@ html, body{
     border-radius: 50%;
     opacity: 0.9;
 }
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+}
+ 
 
+.content p {
+    color: rgb(83, 76, 76);
+}
 
 @media (max-width: 600px) {
     .drop {
