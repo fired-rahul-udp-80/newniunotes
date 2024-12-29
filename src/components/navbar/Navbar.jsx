@@ -16,8 +16,8 @@ const Navbar = () => {
   return (
     <div id="navbar" className=" w-full h-[70px] shadow-shadowOne bg-gray-900 fixed top-0 z-50">
         <div className="max-w-[1160px] h-full mx-auto z-50 flex justify-between px-6  items-center text-secondaryColor font-titleFont">
-            <div className="content">
-                 <img src="" alt="" />
+            <div>
+                 
                 <h2 className="nav-part text-4xl font-bold">📚NIU Notes</h2>
                 
                  
