@@ -23,8 +23,8 @@ const Home = ({notesBook}) => {
         <div className=" h-full flex px-6 relative overflow-hidden items-center font-bodyFont ">
             <div className="w-full max-w-[1360px] h-full mx-auto flex items-center justify-center">
                  
-             <div className="w-full z-20 mb-16 mt-7 md:mt-10 rounded-3xl flex flex-col-reverse md:flex-row gap-x-10  items-center bg-gradient-to-bl from-bgColor to-gray-900 md:px-4 py-4 md:py-10 text-white ">
-                    <div className="w-full md:w-[75%] flex flex-col gap-y-2 md:gap-y-6 xl:gap-y-8 px-5 py-3 md:py-8">
+             <div className="w-full z-20 mb-16 mt-6 md:mt-10 rounded-3xl flex flex-col-reverse md:flex-row gap-x-10  items-center bg-gradient-to-bl from-bgColor to-gray-900 md:px-4 py-4 md:py-10 text-white ">
+                    <div className="w-full md:w-[75%] flex flex-col gap-y-2 md:gap-y-6 xl:gap-y-8 px-5 py-5 md:py-8">
                         <h1 className="text-3xl md:text-5xl xl:text-5xl font-bold font-serif">NIU Notes</h1>
                         <div className=" font-medium flex flex-col gap-y-2 md:gap-y-3">
                             <div className="text-md md:text-xl">Your Ultimate resources hub for all NIU college materials. Download and share to all.</div>
