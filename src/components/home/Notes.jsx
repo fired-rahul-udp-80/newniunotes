@@ -23,7 +23,7 @@ const Notes = () => {
   return (
     <div>
         <div className="mb-10">
-            <ul className="flex font-semibold md:text-xl shadow-xl" >
+            <ul className="flex font-semibold md:text-xl shadow-xl overflow-x-scroll no-scrollbar" >
                     <li onClick={() =>setSemester1Details(true) & setSemester2Details(false) & setSemester3Details(false) & setSemester4Details(false) & setFinalYearProject(false)}
                      className={`px-6 md:px-10 py-5 bg-bgColor text-secondaryColor font-titleFont hover:bg-boxBg hover:opacity-90 hover:text-opacity-70 cursor-pointer text-center w-full
                      ${semester1Details ? "opacity-90 bg-boxBg text-opacity-70":""} transition-all duration-200`} >1 <sup>st </sup>Year
