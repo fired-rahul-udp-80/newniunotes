@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="max-w-[1160px] h-full mx-auto z-50 flex justify-between px-6  items-center text-secondaryColor font-titleFont">
             <div>
                  
-                <h2 className="nav-part text-4xl font-bold">📚NIU Notes</h2>
+                <h2 className="text-4xl font-bold">📚NIU Notes</h2>
                 
                  
             </div>
