@@ -29,7 +29,7 @@ const Home = ({notesBook}) => {
                         <div className=" font-medium flex flex-col gap-y-2 md:gap-y-3">
                             <div className="text-md md:text-xl">Your Ultimate resources hub for all NIU college materials. Download and share to all.</div>
                             <p className="text-sm md:text-md text-secondaryColor">Notes | Previous Year Question Paper | Placement Notes | Academic Calendar | Syllabus | Practical</p>
-                            <div className="text-xs md:text-sm font-titleFont text-blue-400 font-semibold">"Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing." – William Arthur Ward</div>
+                            <div className="text-xs md:text-sm font-titleFont text-blue-400 font-semibold">"Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing."</div>
                             <div className="flex flex-col lg:flex-row gap-y-3 gap-x-3 md:gap-x-6 mt-5 text-xs h-fit">
                                 <div className="flex flex-row gap-x-3 md:gap-x-6 gap-y-3">
                                 <a href={syllabus} target="_blank" className="px-4  md:px-6 py-3 md:py-5 w-[50%] xl:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Syllabus</a>
