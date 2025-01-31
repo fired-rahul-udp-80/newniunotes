@@ -1,7 +1,7 @@
 import React, { useState,useContext } from 'react'
 import { NavLink } from 'react-router-dom'
  
-import { RiMenu3Fill } from "react-icons/ri";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 import { MdClose } from "react-icons/md";
 import { AppContext } from '../../context/AppContext';
@@ -14,7 +14,7 @@ const Navbar = () => {
    
     
   return (
-    <div id="navbar" className=" w-full h-[70px] shadow-shadowOne bg-gray-900 fixed top-0 z-50">
+    <div id="navbar" className=" w-full h-[80px] shadow-2xl bg-gray-900 fixed top-0 z-50">
         <div className="max-w-[1160px] h-full mx-auto z-50 flex justify-between px-6  items-center text-secondaryColor font-titleFont">
             <div>
                  
@@ -39,7 +39,7 @@ const Navbar = () => {
             </div>
             <div className="text-3xl md:hidden cursor-pointer ">
              {
-                isVisible ? <MdClose  onClick={() => setIsVisible(false)} /> : <RiMenu3Fill onClick={() => setIsVisible(true)} />
+                isVisible ? <MdClose  onClick={() => setIsVisible(false)} /> : <HiMenuAlt3 onClick={() => setIsVisible(true)} />
              }
             
             </div>
