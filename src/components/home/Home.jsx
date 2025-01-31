@@ -24,19 +24,19 @@ const Home = ({notesBook}) => {
             <div className="w-full max-w-[1360px] h-full mx-auto flex items-center justify-center">
                  
              <div className="w-full z-20 mb-12 mt-5 lg:mt-10 rounded-3xl flex flex-col-reverse md:flex-row gap-x-10  items-center bg-gradient-to-bl from-bgColor to-gray-900 md:px-4 py-4 md:py-10 text-white ">
-                    <div className="w-full md:w-[75%] flex flex-col gap-y-2 md:gap-y-6 xl:gap-y-8 px-5 py-5 md:py-8">
+                    <div className="w-full md:w-[75%] flex flex-col gap-y-2 sm:gap-y-6 xl:gap-y-8 px-5 py-5 md:py-8">
                         <h1 className="text-3xl md:text-5xl xl:text-5xl font-bold font-serif">NIU Notes</h1>
                         <div className=" font-medium flex flex-col gap-y-2 md:gap-y-3">
                             <div className="text-md md:text-xl">Your Ultimate resources hub for all NIU college materials. Download and share to all.</div>
                             <p className="text-sm md:text-md text-secondaryColor">Notes | Previous Year Question Paper | Placement Notes | Academic Calendar | Syllabus | Practical</p>
                             <div className="text-xs md:text-sm font-titleFont text-blue-400 font-semibold">"Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing."</div>
                             <div className="flex flex-col lg:flex-row gap-y-3 gap-x-3 md:gap-x-6 text-xs h-fit">
-                                <div className="flex flex-col lg:flex-row gap-x-3 md:gap-x-6 gap-y-3 md:mt-5">
-                                <a href={syllabus} target="_blank" className="px-4  md:px-6 py-2 md:py-5 w-[50%] xl:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Syllabus</a>
-                                <a href={holidayList} target="_blank" className="px-4 md:px-6 py-2 md:py-5 w-[60%] xl:w-auto md:text-lg text-center bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Holiday List</a>
+                                <div className="flex flex-col lg:flex-row gap-x-3 md:gap-x-6 gap-y-3 sm:mt-5">
+                                <a href={syllabus} target="_blank" className="px-4  md:px-6 py-2 sm:py-5 w-[50%] xl:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Syllabus</a>
+                                <a href={holidayList} target="_blank" className="px-4 md:px-6 py-2 sm:py-5 w-[60%] xl:w-auto md:text-lg text-center bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Holiday List</a>
                                 </div>
                                 
-                                <a href={academic} target="_blank" className="px-4 md:px-6 py-2 md:py-5 w-[70%] md:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 rounded-md font-titleFont cursor-pointer hover:opacity-80 ">Academic Calendar</a>
+                                <a href={academic} target="_blank" className="px-4 md:px-6 py-2 sm:py-5 w-[70%] md:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 rounded-md font-titleFont cursor-pointer hover:opacity-80 ">Academic Calendar</a>
                             </div>
                         </div>
                     </div>
