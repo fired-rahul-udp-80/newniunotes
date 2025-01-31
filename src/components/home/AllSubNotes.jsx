@@ -79,10 +79,10 @@ const AllSubNotes = () => {
                                     return (
                                         <li key={subNote._id} onClick={() =>{getId(subNote._id)}}
                                          className="flex flex-col rounded shadow-lg bg-gradient-to-br from-bgColor to-gray-900 my-5 font-bodyFont font-medium">
-                                            <div className="text-secondaryColor flex gap-x-5 justify-between items-center py-1 px-5 "> 
+                                            <div className="text-secondaryColor flex gap-x-5 border-b-[7px] border-r-[7px] border-slate-900 justify-between items-center py-1 px-5 "> 
                                                 <div className="flex flex-col gap-3">
                                                     <p className="text-lg capitalize">{subNote.subjectName} {"  Year  "}{subNote.subDes}</p>
-                                                    <p className="text-xs text-white opacity-45">Uploaded by Mr./Miss. {subNote.name}</p>
+                                                    <p className="text-xs text-white opacity-45">Uploaded by {subNote.name}</p>
                                                 </div>
                                                 <div>
                                                     <a href={subNote.notes} download={subNote.notes} target="_blank" className="px-5 py-2 border rounded hover:opacity-70 border-slate-300">Download</a>
