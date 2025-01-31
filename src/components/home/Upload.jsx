@@ -28,7 +28,7 @@ const Upload = () => {
           </div>
           <Link to="/pages/upload-notes">
             <div className="flex justify-center">
-            <button className="w-[80%] py-5 bg-bgColor rounded-md text-secondaryColor font-titleFont text-xl flex justify-center font-bold items-center hover:opacity-80">
+            <button className="w-[80%] py-5 bg-bgColor rounded-md text-secondaryColor border-b-[7px] border-r-[7px] border-red-950 font-titleFont text-xl flex justify-center font-bold items-center hover:opacity-80">
               Upload
             </button>
             </div>
