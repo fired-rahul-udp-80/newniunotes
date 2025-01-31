@@ -32,11 +32,11 @@ const Home = ({notesBook}) => {
                             <div className="text-xs md:text-sm font-titleFont text-blue-400 font-semibold">"Study while others are sleeping; work while others are loafing; prepare while others are playing; and dream while others are wishing."</div>
                             <div className="flex flex-col lg:flex-row gap-y-3 gap-x-3 md:gap-x-6 text-xs h-fit">
                                 <div className="flex xs:flex-row sm:flex-col lg:flex-row gap-x-3 md:gap-x-6 gap-y-3 sm:mt-5">
-                                <a href={syllabus} target="_blank" className="px-4  md:px-6 py-3 sm:py-5 w-[50%] xl:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Syllabus</a>
+                                <a href={syllabus} target="_blank" className="px-4  md:px-6 py-3 lg:py-5 w-[50%] xl:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Syllabus</a>
                                 <a href={holidayList} target="_blank" className="px-4 md:px-6 py-3 md:py-5 w-[60%] xl:w-auto md:text-lg text-center bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 font-titleFont rounded-md cursor-pointer hover:opacity-80 ">Holiday List</a>
                                 </div>
                                 
-                                <a href={academic} target="_blank" className="px-4 md:px-6 py-3 sm:py-5 w-[70%] md:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 rounded-md font-titleFont cursor-pointer hover:opacity-80 ">Academic Calendar</a>
+                                <a href={academic} target="_blank" className="px-4 md:px-6 py-3 lg:py-5 w-[70%] md:w-auto text-center md:text-lg bg-bgColor text-secondaryColor font-bold border-b-[7px] border-r-[7px] border-red-950 rounded-md font-titleFont cursor-pointer hover:opacity-80 ">Academic Calendar</a>
                             </div>
                         </div>
                     </div>
