@@ -4,6 +4,7 @@ import syllabus from "../../assets/syllabus.pdf"
 import waveImg from "../../assets/waveImg.svg"
 import academic from "../../assets/Academic-Calendar.pdf"
 import holidayList from "../../assets/NiuHoidayList.pdf"
+import { Spinner }  from '../template/Spinner'
 import Notes from './Notes'
 import Upload from './Upload'
 import MoreFeatures from "./MoreFeatures"
@@ -12,8 +13,13 @@ import Contact from './Contact'
 import PortfolioLink from './PortfolioLink'
 import PlacementLink from "./placement/PlacementLink"
 import { FaLocationArrow } from "react-icons/fa";
+import FeedbackSlider from '../feedback/FeedbackSlider'
 import {Link} from "react-router-dom"
 const Home = ({notesBook}) => {
+  const {loading,getAllFeedback} = useContext(AppContext);
+  useEffect(() =>{
+        getAllFeedback();
+    },[]);
   return (
     <div className="w-full h-full bg-homeScreen mt-[70px]">
     <div>
@@ -101,6 +107,25 @@ const Home = ({notesBook}) => {
              <div>
                 <PortfolioLink/>
              </div>
+        </div>
+        <div>
+            <div className="max-w-[1360px] mx-auto">
+                <p className="text-4xl text-bgColor font-titleFont font-[600]"> Top Reviews from Our Community...</p>
+            </div>
+                    
+                    <div className=" ">
+                     {
+                      loading ? 
+                      (
+                       <Spinner />
+                      ):
+                      (
+                        <FeedbackSlider/>
+                      )
+                     }
+                        
+                        
+                    </div>
         </div>
         <div>
             <Contact path ="/contact"  />
