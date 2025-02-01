@@ -111,7 +111,7 @@ const Home = ({notesBook}) => {
         </div>
         <div>
             <div className="max-w-[1360px] mx-auto">
-                <p className="text-4xl text-bgColor font-titleFont font-[600]"> Top Reviews from Our Community...</p>
+                <p className="ml-5 text-2xl text-center md:text-left md:text-4xl text-bgColor font-titleFont font-[600]"> Top Reviews from Our Community...</p>
             </div>
                     
                     <div className=" ">
