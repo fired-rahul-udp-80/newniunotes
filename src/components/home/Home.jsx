@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useContext, useEffect} from 'react'
 import hero_image from "../../assets/robot_prev_ui.png"
 import syllabus from "../../assets/syllabus.pdf"
 import waveImg from "../../assets/waveImg.svg"
@@ -14,6 +14,7 @@ import PortfolioLink from './PortfolioLink'
 import PlacementLink from "./placement/PlacementLink"
 import { FaLocationArrow } from "react-icons/fa";
 import FeedbackSlider from '../feedback/FeedbackSlider'
+import { AppContext } from '../../context/AppContext'
 import {Link} from "react-router-dom"
 const Home = ({notesBook}) => {
   const {loading,getAllFeedback} = useContext(AppContext);
