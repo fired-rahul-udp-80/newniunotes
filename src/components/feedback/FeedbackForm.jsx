@@ -176,8 +176,14 @@ const FeedbackForm = () => {
 
                     </div>
                 </form>
-                <div>
-                    <p className="text-4xl text-bgColor font-titleFont font-medium  underline-offset-8 " >Our Feedback</p>
+               
+            </div>
+            
+        </div>
+        <div>
+            <div className="max-w-[1360px] mx-auto">
+                <p className="text-4xl text-bgColor font-titleFont font-[600]"> Top Reviews from Our Community...</p>
+            </div>
                     
                     <div className=" ">
                      {
@@ -192,9 +198,6 @@ const FeedbackForm = () => {
                         
                         
                     </div>
-                </div>
-            </div>
-            
         </div>
             <div>
                 {
