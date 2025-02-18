@@ -23,7 +23,7 @@ const Upload = () => {
         <div className="flex flex-col gap-y-10 justify-center md:w-[50%]">
           <div className="text-center flex flex-col justify-center items-center">
           <FiUploadCloud className=" text-7xl "/>
-          <p className="font-medium">Supported Format:.pdf <br/>
+          <p className="font-medium">Supported Format:.pdf, .txt <br/>
           Max File Size: 10 MB</p>
           </div>
           <Link to="/pages/upload-notes">
