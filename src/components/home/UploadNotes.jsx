@@ -190,7 +190,7 @@ const UploadNotes = () => {
                                  name="semester" id="semester" className="text-sm outline-none border-[1px]  border-red-800 py-3 rounded px-2"
                                  //{...register("semester",{required:true})}
                                  >
-                                 <option disabled >Select Semester</option>
+                                 <option value="Select Semester" disabled >Select Semester</option>
                                     {
                                         allSemester.map((data) =>(
                                             <option key = {data.id} value = {data.semester}>{data.semester}</option>
@@ -211,7 +211,7 @@ const UploadNotes = () => {
                                   placeholder="select subject name"
                                  name="subjectName" id="subjectName" className="text-sm outline-none border-[1px]  border-red-800 py-3 rounded px-2"
                                  >
-                                     <option value="" disabled>select subject</option>
+                                     <option value="Select subject" disabled>Select subject</option>
                                  {
                                     semSub ? semSub.map((value) =>(
                                         value?.subject.map((sub,index)=>(
