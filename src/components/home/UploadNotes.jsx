@@ -186,11 +186,11 @@ const UploadNotes = () => {
                             </div>
                             <div className=" flex flex-col  gap-y-2 relative">
                                 <label htmlFor="semester">Semester<sup>*</sup></label>
-                                <select onChange = {selectSemester}
+                                <select onChange = {selectSemester} defaultValue=""
                                  name="semester" id="semester" className="text-sm outline-none border-[1px]  border-red-800 py-3 rounded px-2"
                                  //{...register("semester",{required:true})}
                                  >
-                                 <option value="Select Semester" disabled >Select Semester</option>
+                                 <option value="" disabled >Select Semester</option>
                                     {
                                         allSemester.map((data) =>(
                                             <option key = {data.id} value = {data.semester}>{data.semester}</option>
@@ -208,10 +208,10 @@ const UploadNotes = () => {
                                 <label htmlFor="subjectName">Subject Name <span>*</span></label>
                                  <select
                                   {...register("subjectName",{required:true})}
-                                  placeholder="select subject name"
+                                  placeholder="select subject name" defaultValue=""
                                  name="subjectName" id="subjectName" className="text-sm outline-none border-[1px]  border-red-800 py-3 rounded px-2"
                                  >
-                                     <option value="Select subject" disabled>Select subject</option>
+                                     <option value="" disabled>Select subject</option>
                                  {
                                     semSub ? semSub.map((value) =>(
                                         value?.subject.map((sub,index)=>(
